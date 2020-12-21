@@ -1,0 +1,1 @@
+python3 random_files.py '../playlist/*.mp3' | python3 ffplaylist.py -vv -p -- -vn -c:a copy -content_type audio/mp3 -f rtsp rtsp://20.46.44.246:8554/ashustream
